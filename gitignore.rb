@@ -1,8 +1,8 @@
 class Gitignore < Formula
   desc "Script to generate .gitignore files for a specified language."
   homepage "https://github.com/wn/gitignore"
-  url "https://github.com/wn/gitignore/blob/master/gitignore-1.0.tar.gz?raw=true"
-  sha256 "3a746ab5e4e3045e64835b0593066f8c42adfeb35bf1aea4d1ed5d65432c0815"
+  url "https://github.com/wn/gitignore/blob/master/gitignore-1.1.tar.gz?raw=true"
+  sha256 "74ae5a8f1e072e12cb9a38222eab104e2a2d60e728470ac5ffca2f400fbacf70"
   version "1.1"
 
   def install
