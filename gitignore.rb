@@ -1,9 +1,9 @@
 class Gitignore < Formula
   desc "Script to generate .gitignore files for a specified language."
   homepage "https://github.com/wn/gitignore"
-  url "https://github.com/wn/gitignore/blob/master/gitignore-1.1.tar.gz?raw=true"
-  sha256 "74ae5a8f1e072e12cb9a38222eab104e2a2d60e728470ac5ffca2f400fbacf70"
-  version "1.1"
+  url "https://github.com/wn/gitignore/blob/master/gitignore-1.2.tar.gz?raw=true"
+  sha256 "c2665ec3fe39b7efe419e3f1802eace6d39ed0774c9fc9f31f415a78ae61b35b"
+  version "1.2"
 
   def install
     # install gitignore script, create symlink to script in /usr/local/bin
@@ -11,6 +11,6 @@ class Gitignore < Formula
   end
 
   test do
-
+    system "false"
   end
 end
